@@ -1,0 +1,24 @@
+# Example Terraform Variables Configuration
+# Copy this file to terraform.tfvars and update with your values
+
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Project Configuration
+project_name = "cafe-aroma"
+environment  = "production"
+
+# Network Configuration
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.3.0/24", "10.0.4.0/24"]
+availability_zones   = ["us-east-1a", "us-east-1b"]
+
+# EC2 Configuration
+instance_type = "t3.micro"  # Free tier eligible
+key_pair_name = "your-existing-keypair"  # Must exist in your AWS account
+
+# Security Configuration
+your_ip_address = "203.0.113.0/32"  # Replace with your actual public IP
+                                     # Get it from: curl ifconfig.me
+                                     # Or visit: whatismyip.com
