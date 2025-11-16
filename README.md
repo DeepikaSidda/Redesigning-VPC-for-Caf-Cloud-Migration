@@ -1,5 +1,11 @@
 # Café Aroma VPC Redesign Project
 
+## 📐 Fixed VPC Architecture Diagram
+
+![Fixed VPC Architecture](fixed_vpc_architecture.png)
+
+
+
 📌 **Read the full blog here:**  
 https://medium.com/@siddadeepika/redesigning-a-vpc-from-scratch-the-café-cloud-migration-gone-wrong-640d470959f8
 
