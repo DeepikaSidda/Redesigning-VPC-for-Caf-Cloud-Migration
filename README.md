@@ -1,5 +1,10 @@
 # Café Aroma VPC Redesign Project
 
+📌 **Read the full blog here:**  
+https://medium.com/@siddadeepika/redesigning-a-vpc-from-scratch-the-café-cloud-migration-gone-wrong-640d470959f8
+
+📁 **Note:**  
+All **output screenshots** for this project are available in the **`screenshots/` folder** in this repository.
 ## 🏗️ Project Overview
 
 This project redesigns Café Aroma's AWS VPC infrastructure from a poorly configured default setup to a production-ready, secure, and scalable multi-tier architecture using Infrastructure as Code (Terraform).
