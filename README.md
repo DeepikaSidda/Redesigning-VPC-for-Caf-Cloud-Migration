@@ -35,7 +35,7 @@ aws_region = "us-east-1"
 project_name = "cafe-aroma"
 environment = "production"
 your_ip_address = "45.120.59.253/32"  # Get from whatismyip.com
-key_pair_name = "cafe-aroma-key"
+key_pair_name = "cafe-aroma-key" # create a key pair and replace name here
 ```
 
 ### Step 3: Deploy Infrastructure
@@ -102,7 +102,7 @@ aws ec2 describe-instances --filters "Name=tag:Project,Values=cafe-aroma"
 - Reduces NAT Gateway costs
 - Enhanced security
 
-### VPC Peering (Optional)
+### VPC Peering 
 ```bash
 # Deploy staging environment
 cd environments/staging
